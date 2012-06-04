@@ -1,0 +1,21 @@
+{
+  "author": "Paul Bergeron <paul.d.bergeron@gmail.com> (http://pauldbergeron.com)",
+  "name": "johnny_on_the_spot",
+  "description": "Redis based real time monitoring app",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pathable/johnnyonthespot.git"
+  },
+  "dependencies": {
+    "redis":"0.7.2",
+    "hiredis":"0.1.14",
+    "node-static":"0.5.9",
+    "websocket":"1.0.6"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= v0.6.18"
+  }
+}
